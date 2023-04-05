@@ -16,7 +16,7 @@ const Header = () => {
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
       <NavLink to ="/" className={({isActive})=> isActive ? "active" : "default" }>Home</NavLink>
 
-      <NavLink to ="/about" className={({isActive})=> (isActive ? "active" : "default")}>Books</NavLink> 
+      <NavLink to ="/books" className={({isActive})=> (isActive ? "active" : "default")}>Books</NavLink> 
 
       <NavLink to ="/about" className={({isActive})=> isActive ? "active" : "default"}>About Us</NavLink> 
       </ul>
@@ -33,7 +33,7 @@ const Header = () => {
       
       <NavLink to ="/" className={({isActive})=> isActive ? "active" : "default" }>Home</NavLink>
 
-      <NavLink to ="/about" className={({isActive})=> (isActive ? "active" : "default")}>Books</NavLink> 
+      <NavLink to ="/books" className={({isActive})=> (isActive ? "active" : "default")}>Books</NavLink> 
 
       <NavLink to ="/about" className={({isActive})=> isActive ? "active" : "default"}>About Us</NavLink> 
     </ul>
